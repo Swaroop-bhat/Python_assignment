@@ -52,8 +52,8 @@ while(True):
     score_counter=score_counter+1
     num_comparison(game_num,user_num)
     if(cow_count==4):
-        print("YOU WON")
-        print("YOU HAVE COMPLETED THE GAME IN",str(score_counter),"CHANCES")
+        print("You won")
+        print("Completed in",str(score_counter)," chances")
         break
     else:
         print("cow_count",cow_count)
